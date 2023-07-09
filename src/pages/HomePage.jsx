@@ -1,10 +1,10 @@
 import React from "react";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 const HomePage = () => {
   return (
     <Flex as="main" flexDir="column" gap={8}>
-      <Text>MCR-7</Text>
+      <Heading>MCR-7</Heading>
     </Flex>
   );
 };

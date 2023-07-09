@@ -1,5 +1,4 @@
 import { createContext, useContext, useReducer } from "react";
-import { restaurantsData } from "../data";
 
 const AppContext = createContext({
   state: {},
